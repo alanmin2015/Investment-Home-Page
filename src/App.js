@@ -7,10 +7,8 @@ import React from 'react';
 import About from './components/About/About';
 import { Switch, Route } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
-import Skill from './components/Skill/Skill';
-import Education from './components/Education/Education';
-import Project from './components/Project/Project';
-
+import Philosophy from './components/Philosophy/Philosophy';
+import Contact from './components/Contact/Contact';
 function App() {
   return (
     <div >
@@ -24,14 +22,11 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/project">
-          <Project />
+        <Route path="/philosophy">
+          <Philosophy />
         </Route>
-        <Route path="/skill">
-          <Skill />
-        </Route>
-        <Route path="/education">
-          <Education />
+        <Route path="/contact">
+          <Contact />
         </Route>
       </Switch>
       </BrowserRouter>

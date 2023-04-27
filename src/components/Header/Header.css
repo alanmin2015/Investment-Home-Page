@@ -7,7 +7,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  background-color: #060606;
+  background-color: white;
   padding: 8px;
   
 }
@@ -32,19 +32,8 @@ header nav li {
 }
 
 header nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
   font-size: 23px;
-}
-header .logo{
-  border-radius: 50%;
-  float: left;
-  transition: all 3s;
-}
-
-
-header .logomove{
-  height: 90px;
-  translate: 10px ;
 }
