@@ -54,3 +54,27 @@ a:hover {
 #logo{
   margin-left: 70px;
 }
+
+/* Logo alignment on smaller screens */
+@media screen and (max-width: 768px) {
+  #logo {
+    margin-left: 3vw; /* changed from 70px to 3vw */
+  }
+}
+
+/* Navigation alignment on smaller screens */
+@media screen and (max-width: 768px) {
+  header nav {
+    margin-right: 3vw; /* changed from 5vw to 3vw */
+  }
+  
+  header nav li {
+    margin-left: 2vw; /* changed from 3vw to 2vw */
+  }
+  .logo{
+    height: 60%;
+  }
+  header nav a {
+    font-size: 0.7rem; /* changed from 1.2rem to 1rem */
+  }
+}
