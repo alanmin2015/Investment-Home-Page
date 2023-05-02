@@ -4,7 +4,7 @@ function Contact() {
   
   
     return (
-      <div id="contact">
+      <div id="Contact">
       <h2 >Contact Me</h2>
       <dev>
       Email: <a href="mailto:xiaoyu@raintimes.ca">xiaoyu@raintimes.ca</a>

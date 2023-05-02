@@ -3,13 +3,14 @@ import './Philosophy.css';
 
 function Philosophy() {
   return (
-    <div className="home-container">
+    <div className="Philosophy" id="Philosophy">
       <h1>Investment Philosophy:
 </h1>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;1. Buy companies, not stocks
-2. Buy companies that I understand
-3. Always ensure a margin of safety
-</p>
+<ul>
+  <li>Buy companies, not stocks</li>
+  <li>Buy companies that I understand</li>
+  <li>Always ensure a margin of safety</li>
+</ul>
     </div>
   );
 }
